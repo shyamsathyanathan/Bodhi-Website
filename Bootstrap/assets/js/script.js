@@ -52,19 +52,19 @@ $(document).ready(function() {
 
     $("#chapter4").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(153,51,153,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(153,51,153,0.5)'},500)
        }
     });
 
     $("#chapter5").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(153,0,255,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(153,0,255,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
        }
     });
 
