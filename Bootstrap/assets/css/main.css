@@ -168,42 +168,10 @@ a:after {
 	font-weight: 400;
 }
 
-/* Green */
-.green {
-	background-color: #83B0FC;
-	padding-top: 50px;
-	margin-bottom: 0px;
-}
-
-.green h3 {
-	color: white;
-	font-weight: 400;
-	margin-bottom: 35px;
-}
-
-.green p {
-	color: white;
-	font-weight: 400;
-	font-size: 20px;
-}
-
-/* Orange */
-.orange {
-	background-color: #E38E2D;
-	padding-top: 50px;
-	margin-bottom: 0px;
-}
-
-.orange h3 {
-	color: white;
-	font-weight: 400;
-	margin-bottom: 35px;
-}
-
-.orange p {
-	color: white;
-	font-weight: 400;
-	font-size: 20px;
+/*padding for images in home page */
+.padding30 {
+	padding-top: 30%;
+	padding-bottom: 30%;
 }
 
 /* Skills */
@@ -242,6 +210,21 @@ a:after {
 #social .col-md-3 {
 	padding:30px;
 }
+
+/* Division left side */
+
+#item-left {
+	float:left;
+	width:50%;
+}
+
+/* Division right side */
+
+#item-right {
+	float:right;
+	width: 50%;
+}
+
 
 /* Footer */
 #f {
