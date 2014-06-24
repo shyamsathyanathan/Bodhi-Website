@@ -44,10 +44,10 @@ $(document).ready(function() {
 
     $("#chapter3").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(255,102,0,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(153,255,51,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(255,102,0,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(153,255,51,0.5)'},500)
        }
     });
 
@@ -56,16 +56,16 @@ $(document).ready(function() {
           $("body").animate({backgroundColor: 'rgba(153,51,153,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(153,51,153,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,153,153,0.5)'},500)
        }
     });
 
     $("#chapter5").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,255,102,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,255,102,0.5)'},500)
        }
     });
 
