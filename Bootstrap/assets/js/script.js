@@ -30,6 +30,7 @@ $(document).ready(function() {
        else {
           $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
        }
+       $("")
     });
 
     $("#chapter2").waypoint(function(event, direction) {
@@ -69,3 +70,12 @@ $(document).ready(function() {
     });
 
 });
+
+$(document).on("scroll",function(){
+    if($(document).scrollTop()>100){
+        $("header").removeClass("large").addClass("small");
+    } else{
+        $("header").removeClass("small").addClass("large");
+    }
+});
+</script>
