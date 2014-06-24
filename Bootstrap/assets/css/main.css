@@ -266,17 +266,4 @@ a:after {
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
-} 
-
-.inner-header
-{
-	font-size: 4em;
-}  
-
-.margin5pct {
-	margin-top: 5%;
-}
-
-.width-full {
-	width: 100%;
-}
+}   
