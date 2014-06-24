@@ -23,47 +23,48 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 $(document).ready(function() {
 
-	$("#chapter1").waypoint(function(event,direction) {
-		if(direction === 'down') {
-			$("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},1000)
-		} else {
-			$("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},1000)
-		}
-	})
+	 $("#chapter1").waypoint(function(event, direction) {
+       if (direction === 'down') {
+          $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
+       }
+       else {
+          $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
+       }
+    });
 
     $("#chapter2").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(25,148,255,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(25,148,255,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(25,148,255,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(25,148,255,0.5)'},500)
        }
     });
 
     $("#chapter3").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(255,0,0,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(255,102,0,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(25,148,255,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(255,102,0,0.5)'},500)
        }
     });
 
     $("#chapter4").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(96,0,179,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(255,0,0,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(35,76,75,0.5)'},500)
        }
     });
 
     $("#chapter5").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(60,200,0,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(153,0,255,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(96,0,179,0.5)'},1000)
+          $("body").animate({backgroundColor: 'rgba(153,0,255,0.5)'},500)
        }
     });
 

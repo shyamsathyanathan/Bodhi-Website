@@ -169,9 +169,8 @@ a:after {
 }
 
 /*padding for images in home page */
-.padding30 {
-	padding-top: 30%;
-	padding-bottom: 30%;
+.padding40 {
+	padding-top: 40%;
 }
 
 /* Skills */
@@ -194,7 +193,6 @@ a:after {
 /* Social Links */
 #social {
 	width: 100%;
-	padding-top: 200px;
 	padding-bottom: 200px;
 }
 
