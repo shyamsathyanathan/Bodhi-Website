@@ -304,7 +304,7 @@ header.small{ height: 15%; margin: 0px; }
 header.small img{ width: 20%; height: 10%; margin-top: -10px; }
 header.small li{ margin-top: 10%; }
 
-header,nav, a, img, li{
+header,nav, a, img, li, label{
   transition: all 1s;
   -moz-transition: all 1s; /* Firefox 4 */
   -webkit-transition: all 1s; /* Safari and Chrome */
