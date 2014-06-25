@@ -23,6 +23,10 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 $(document).ready(function() {
 
+  $('#about-us-overlay').hide();
+  $('#contact-overlay').hide();
+  $('#services-overlay').hide();
+
 	 $("#chapter1").waypoint(function(event, direction) {
        if (direction === 'down') {
           $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
@@ -67,5 +71,32 @@ $(document).ready(function() {
           $("body").animate({backgroundColor: 'rgba(255,255,102,0.5)'},500)
        }
     });
+
+    $('#about-more').click(function(){
+      $('#about-us-overlay').show('slow');
+    });
+
+    $('#about-more-close').click(function(){
+      $('#about-us-overlay').hide('slow');
+    });
+
+     $('#services-more').click(function(){
+      $('#services-overlay').show('slow');
+    });
+
+    $('#services-close').click(function(){
+      $('#services-overlay').hide('slow');
+    });
+
+    $('#contact-more').click(function(){
+      $('#contact-overlay').show('slow');
+    });
+
+    $('#contact-close').click(function(){
+      $('#contact-overlay').hide('slow');
+    });
+
+
+
 
 });
