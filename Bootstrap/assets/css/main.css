@@ -309,9 +309,9 @@ header li{ margin-right: 30px; }
 
 /* Sizes for the bigger menu */
 header.large{ background: url('../img/bg.jpg'); }
-header.large img{ width: 30%; height: 30%; clear: both; margin-top:30%; float:right; }
+header.large img{ width: 30%; height: 30%; clear: both; margin-top:25%; }
 header.large li{ margin-top: 45px; }
-header.large label{vertical-align: middle;}
+header.large label{}
 
 /* Sizes for the smaller menu */
 header.small{ margin: 0px; background: url('../img/bg.jpg'); }
