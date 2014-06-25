@@ -96,7 +96,4 @@ $(document).ready(function() {
       $('#contact-overlay').hide('slow');
     });
 
-
-
-
 });

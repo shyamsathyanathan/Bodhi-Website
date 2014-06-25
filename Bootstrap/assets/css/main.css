@@ -209,18 +209,31 @@ a:after {
 	padding:30px;
 }
 
-/* Division left side */
+/* Division image side */
 
-#item-left {
+#item-image-left {
 	float:left;
-	width:50%;
+	width:40%;
 }
 
-/* Division right side */
-
-#item-right {
+#item-image-right {
+	padding-left: 5%;
 	float:right;
-	width: 50%;
+	width:40%;
+}
+
+/* Division text side */
+
+#item-text-right {
+	text-align: justify;
+	float:right;
+	width: 60%;
+}
+
+#item-text-left {
+	text-align: justify;
+	float:left;
+	width: 60%;
 }
 
 
@@ -295,12 +308,12 @@ header a.active, header a:hover{ color: #3d3d3d; }
 header li{ margin-right: 30px; }
 
 /* Sizes for the bigger menu */
-header.large{ height: 80%; }
+header.large{  }
 header.large img{ width: 60%; height: 60%; vertical-align: middle;}
 header.large li{ margin-top: 45px; }
 
 /* Sizes for the smaller menu */
-header.small{ height: 15%; margin: 0px; }
+header.small{ margin: 0px; }
 header.small img{ width: 20%; height: 10%; margin-top: -10px; }
 header.small li{ margin-top: 10%; }
 
@@ -315,10 +328,10 @@ header,nav, a, img, li, label{
 
 .overlay {
     position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
+    top:-20px;
+    left:-10px;
+    right:-10px;
+    bottom:-20px;
     background-color:rgba(0, 0, 0, 0.85);
     background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9; /* ie fallback png background image */
     z-index:9999;
@@ -329,7 +342,7 @@ header,nav, a, img, li, label{
 	position:relative;
 }
 
-/* Experimenting with new Headind styles */
+/* new Heading style: the "Welcome to bodhi" thingie */
 
 header.large .tagline {
 	padding-top: 25%;
@@ -338,7 +351,29 @@ header.large .tagline {
 }
 
 header.small .tagline {
-	padding: 4%;
-	font-size: 2em;
+	padding-top: 4%;
+	font-size: .8em;
 	color:#FFFFFF;
 }
+
+/* Style for more buttons */
+
+.more-button {
+	width:43px;
+	height:43px;
+	padding:2px;
+	background:none;
+	border: none;
+	box-shadow: none;
+}
+
+.close-button {
+	width: 43px;
+	height: 43px;
+	padding:2px;
+	background: none;
+	border: none;
+	box-shadow: none;
+	float: right;
+}
+
