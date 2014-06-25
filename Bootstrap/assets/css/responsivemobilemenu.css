@@ -84,13 +84,12 @@ License: CC BY 3.0 http://creativecommons.org/licenses/by/3.0/
 	padding:8px 30px 8px 30px;
 	margin:0px -3px 0px -3px;
 	font-size:15px;
-	text-shadow:1px 1px 1px #333333;
-	background-color:#444444;
+	background-color:none;
+	color:#0099cc;
 	border-left:1px solid #555555;
-	background-repeat:repeat-x;
 }
 .rmm.graphite .rmm-main-list li a:hover {
-	background: #444422;
+	background: none;
 }
 .rmm.graphite .rmm-main-list li:first-child a {
 -webkit-border-top-left-radius: 6px;

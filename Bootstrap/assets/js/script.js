@@ -29,10 +29,10 @@ $(document).ready(function() {
 
 	 $("#chapter1").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,255,255,1)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(255,255,255,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,255,255,1)'},500)
        }
     });
 
@@ -56,19 +56,19 @@ $(document).ready(function() {
 
     $("#chapter4").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(153,51,153,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,51,0,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(255,153,153,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,51,0,0.5)'},500)
        }
     });
 
     $("#chapter5").waypoint(function(event, direction) {
        if (direction === 'down') {
-          $("body").animate({backgroundColor: 'rgba(255,255,102,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,204,0,0.5)'},500)
        }
        else {
-          $("body").animate({backgroundColor: 'rgba(255,255,102,0.5)'},500)
+          $("body").animate({backgroundColor: 'rgba(255,204,0,0.5)'},500)
        }
     });
 
